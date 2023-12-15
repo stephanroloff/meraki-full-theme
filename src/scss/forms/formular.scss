@@ -1,0 +1,96 @@
+//Formular Classes for Ninja Forms 
+
+.nf-form-cont{
+    .nf-form-title{
+        display: none;
+    }
+    .nf-form-wrap{
+        .nf-form-layout{
+            form{
+                div{
+                    .nf-before-form-content{
+                        display: none;
+                    }
+                    .nf-form-content{
+                        margin: 0;
+                        width: 100%;
+                        max-width: 100%;
+
+                        nf-fields-wrap{
+                            nf-field{
+                                .nf-field-container{
+                                    .nf-field{
+                                        .field-wrap{
+                                            display: block;
+                                            .nf-field-label{
+                                                
+                                                //---All inputs Label---
+
+                                                label{
+                                                    // font-family: $font-primary;
+                                                    // color: $white;
+                                                    // font-weight: 300;
+                                                    // font-size: 15px;
+                                                    .ninja-forms-req-symbol{
+                                                        // display: none;
+                                                    }
+                                                }
+                                            }
+                                            .nf-field-element{
+                                                .nf-element{
+                                                    // font-family: $font-primary;
+                                                    // background-color: gray;
+                                                    // border: none;
+
+                                                    //---All input Placeholders---
+
+                                                    &::placeholder{
+                                                        // color: $white !important;
+                                                        // font-weight: 200;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//Exclamation mark
+.nf-error.field-wrap .nf-field-element:after {
+    // background: #ba0000 !important;
+    // height: 33px !important;
+    // line-height: 35px !important;
+}
+//Error messages
+.nf-error .nf-error-msg {
+    // display: none;
+}
+//Single error message below
+.nf-error-msg, .ninja-forms-req-symbol {
+    // font-family: $font-primary;
+}
+
+//Error pass green symbol
+.nf-pass.field-wrap .nf-field-element:after {
+    line-height: 36px !important;
+}
+
+//success message
+.nf-response-msg{
+    img{
+        // width: 68px !important;
+        // height: 65px;
+        // margin: 0 30px 10px 0; 
+    }
+}
+
+
+
+
