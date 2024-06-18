@@ -4,46 +4,4 @@
 
 html {
     scroll-behavior: smooth;
-    // body {
-    //     margin: 0;
-    //     padding: 0;
-    // }
 }
-
-// .all-content {
-//     width: 100%;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     min-height: 100vh;
-
-//     .main-container {
-//         flex-grow: 1; //Avoid having a floating footer. Use the full height of the screen  
-//         width: 100%;
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//     }
-// }
-
-
-// //Padding for responsive
-// // .main-container {
-// //     &>.wp-block-group {
-// //         @media(max-width:1200px) {
-// //             padding: 0 40px !important;
-// //         }
-// //     }
-
-// //     &>h1,
-// //     &>h2,
-// //     &>h3,
-// //     &>h4,
-// //     &>h5,
-// //     &>h6,
-// //     &>p {
-// //         @media(max-width:1200px) {
-// //             padding: 0 40px !important;
-// //         }
-// //     }
-// // }

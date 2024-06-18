@@ -1,9 +1,8 @@
 <?php
 
 function scripts_and_styles(){
-   
-   wp_enqueue_style('main_style', get_theme_file_uri('/build/index.css'));
-   wp_enqueue_script('main_js', get_theme_file_uri('/build/index.js'), array('jquery','wp-blocks'), '1.0', true );
+   wp_enqueue_style('main_style', get_theme_file_uri('/build/index.css'), array(), '1.0', 'all');
+   wp_enqueue_script('main_js', get_theme_file_uri('/build/index.js'), array(), '1.0', true );
 }
 
 function scripts_and_styles_editor(){   
