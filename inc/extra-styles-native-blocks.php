@@ -8,6 +8,17 @@ function default_theme_register_block_styles() {
     //----GROUP-------------------------------------------------------------------
 
     // register_block_style(
+    //     'core/button',
+    //     array(
+    //         'name'         => 'button-style-2',
+    //         'label'        => __( 'Button Style 2', 'textdomain' ),
+    //         'is_default'   => false,
+    //     )
+    // );
+
+    //----GROUP-------------------------------------------------------------------
+
+    // register_block_style(
     //     'core/group',
     //     array(
     //         'name'         => 'group-responsive-padding',
