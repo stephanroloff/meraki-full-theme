@@ -1,0 +1,105 @@
+// DESKTOP
+nav.wp-block-navigation{
+    .wp-block-navigation__responsive-container{
+        .wp-block-navigation__responsive-container-content{
+            ul.wp-block-navigation__container{
+                
+                li.wp-block-navigation-item{
+    
+                    a.wp-block-navigation-item__content{
+                        
+                        span.wp-block-navigation-item__label{
+
+                        }
+                    }
+
+                    &.has-child{
+    
+                    }
+                }
+
+
+                li.wp-block-navigation-submenu{
+                    a.current-menu-ancestor{
+
+                    }
+                    button.wp-block-navigation__submenu-icon{
+                        svg{}
+                    }
+
+                    ul.wp-block-navigation__submenu-container{
+                        li.wp-block-navigation-item{
+                            //Page of submenu
+
+                            &.current-menu-item{
+                                //Page of submenu is active
+                            }
+
+                            a.wp-block-navigation-item__content{
+                                span.wp-block-navigation-item__label{
+
+                                }
+                            }
+                        }
+                    }
+                }  
+            }
+        }
+    }
+}
+
+//----------------------------------------------------------------------------
+// MOBILE
+//----------------------------------------------------------------------------
+nav.wp-block-navigation{
+
+    button.wp-block-navigation__responsive-container-open {
+        svg{}
+    }
+    .wp-block-navigation__responsive-container.is-menu-open{
+
+        .wp-block-navigation__responsive-close{
+            .wp-block-navigation__responsive-dialog{
+
+                button.wp-block-navigation__responsive-container-close{
+                    // X Button to close Mobile Navigation
+                    svg{
+
+                    }
+                }
+                .wp-block-navigation__responsive-container-content{
+                    ul.wp-block-navigation__container{
+
+                        li.wp-block-navigation-item{
+
+                            &.wp-block-navigation-submenu{
+
+                                a.current-menu-ancestor{
+
+                                }
+
+                                ul.wp-block-navigation__submenu-container{
+
+                                    li.wp-block-navigation-item{
+
+                                        &.current-menu-item{
+
+                                        }
+
+                                        a.wp-block-navigation-item__content{
+                                            span.wp-block-navigation-item__label{
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//----------------------------------------------------------------------------
+//----------------------------------------------------------------------------

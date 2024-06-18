@@ -102,12 +102,8 @@
 					"name": "Primary",
 					"slug": "primary",
 					"fontFamily": "Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif"
-				},
-				{
-					"name": "Secondary",
-					"slug": "secondary",
-					"fontFamily": "system-ui, sans-serif"
 				}
+				
 			],
 			"fontSizes": [
 				{
