@@ -6,7 +6,7 @@ const { PanelBody, SelectControl } = wp.components;
 
 const animationControls = createHigherOrderComponent( ( BlockEdit ) => {
     return ( props ) => {
-        const { attributes, setAttributes } = props;
+        const { name, attributes, setAttributes } = props;
 
         let animationOptions = [
             {label:'None', value: 'none'},
@@ -17,7 +17,11 @@ const animationControls = createHigherOrderComponent( ( BlockEdit ) => {
             {label:'Fade in up, delay : 1000ms', value: 'fade-in-up-1000'},
             {label:'Fade in up, delay : 1250ms', value: 'fade-in-up-1250'},
             {label:'Fade in up, delay : 1500ms', value: 'fade-in-up-1500'},
-        ]
+        ];
+
+        if (name !== 'core/group' ) {
+            return <BlockEdit {...props} />;
+        }
 
         return (
             <>
