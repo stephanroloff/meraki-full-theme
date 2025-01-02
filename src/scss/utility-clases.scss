@@ -3,6 +3,10 @@
     width: 100% !important;
 }
 
+.w-auto{
+    width: auto !important;
+}
+
 .w-20{
     width: 5rem !important;
 }
@@ -18,6 +22,10 @@
 }
 .relative{
     position: relative !important;
+}
+
+.fixed{
+    position: fixed !important;
 }
 
 //TOP LEFT RIGHT BOTTOM
@@ -51,49 +59,110 @@
     z-index: 50;
 }
 
-//Transform
-.rotate-180{
-    transform: rotate(180deg);
+.z-10-negative{
+    z-index: -10;
+}
+
+.z-20-negative{
+    z-index: -20;
 }
 
 //Flexbox
 .flex{
-    display: flex;
+    display: flex !important;
+}
+
+.flex-row{
+    flex-direction: row !important;
+}
+
+.flex-col{
+    flex-direction: column !important;
 }
 
 .justify-start{
-    justify-content: start;
+    justify-content: start !important;
 }
 
 .justify-center{
-    justify-content: center;
+    justify-content: center !important;
 }
 
 .justify-end{
-    justify-content: end;
+    justify-content: end !important;
 }
 
 .justify-between{
-    justify-content: space-between;
+    justify-content: space-between !important;
 }
 
 .justify-around{
-    justify-content: space-around;
+    justify-content: space-around !important;
 }
 
 .justify-evenly{
-    justify-content: space-evenly;
+    justify-content: space-evenly !important;
 }
 
 .items-start{
-    align-items: flex-start;
+    align-items: flex-start !important;
 }
 
 .items-center{
-    align-items: center;
+    align-items: center !important;
 }
 
 .items-end{
-    align-items: flex-end;
+    align-items: flex-end !important;
 }
 
+//Transform
+.rotate-90{
+    transform: rotate(90deg) !important;
+}
+
+.rotate-180{
+    transform: rotate(180deg) !important;
+}
+
+.rotate-270{
+    transform: rotate(270deg) !important;
+}
+
+//Text Decoration
+.no-underline{
+    text-decoration: none !important;
+    a{
+        text-decoration: none !important;
+    }
+}
+
+//Overflow
+.overflow-hidden{
+    overflow: hidden !important;
+}
+.overflow-scroll{
+    overflow: scroll !important;
+}
+
+//display
+.inline{
+    display: inline !important;
+}
+
+.hidden{
+    display: none !important;
+}
+
+//margin
+.m-0{
+    margin: 0 !important;
+}
+.mx-0{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.my-0{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
