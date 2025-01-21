@@ -11,11 +11,13 @@ const positioningControls = createHigherOrderComponent( ( BlockEdit ) => {
     return ( props ) => {
         const { name, attributes, setAttributes } = props;
         const blockRef = useRef(null);
-
+        
         useEffect(() => {
+            
             const currentRef = blockRef.current; 
             if(currentRef){
-                const groupDiv = currentRef.querySelector('div');
+                // const groupDiv = currentRef.querySelector('div');
+                const groupDiv = currentRef.nextElementSibling;
 
                 if(groupDiv){
                     if(attributes.position){
@@ -68,9 +70,8 @@ const positioningControls = createHigherOrderComponent( ( BlockEdit ) => {
 
         return (
             <>
-                <div ref={blockRef}>
-                    <BlockEdit {...props}  />
-                </div>
+                <div ref={blockRef}></div>
+                <BlockEdit {...props} />
                 <InspectorControls>
                     <PanelBody title="Positioning" initialOpen={ false }>
                         <SelectControl
