@@ -5,18 +5,19 @@ const { InspectorControls } = wp.blockEditor;
 const { PanelBody, SelectControl } = wp.components;
 import { __experimentalUnitControl as UnitControl } from '@wordpress/components';
 import { __experimentalNumberControl as NumberControl } from '@wordpress/components';
-
+import { useRef, useEffect } from "react";
 
 const positioningControls = createHigherOrderComponent( ( BlockEdit ) => {
     return ( props ) => {
         const { name, attributes, setAttributes } = props;
-
-        if (name !== 'core/group' ) {
-            return <BlockEdit {...props} />;
-        }else{
-            if(attributes.position){
-                
-                const groupDiv = document.querySelector(`div[data-block="${props.clientId}"]`);
+        const blockRef = useRef(null);
+        
+        useEffect(() => {
+            
+            const currentRef = blockRef.current; 
+            if(currentRef){
+                // const groupDiv = currentRef.querySelector('div');
+                const groupDiv = currentRef.nextElementSibling;
 
                 if(groupDiv){
                     if(attributes.position){
@@ -61,11 +62,15 @@ const positioningControls = createHigherOrderComponent( ( BlockEdit ) => {
                     }
                 }
             }
+        }, [attributes])
+        
+        if (name !== 'core/group' ) {
+            return <BlockEdit {...props} />;
         }
 
         return (
-            
             <>
+                <div ref={blockRef}></div>
                 <BlockEdit {...props} />
                 <InspectorControls>
                     <PanelBody title="Positioning" initialOpen={ false }>
