@@ -1,5 +1,9 @@
-.is-style-button-random-1{
+.wp-element-button{
+    @include button-primary;
+}
+
+.is-style-button-secondary{
     .wp-element-button{
-        background-color: red !important;
+        @include button-secondary;
     }
 }

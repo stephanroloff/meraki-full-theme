@@ -1,0 +1,26 @@
+// @mixin button-primary { 
+//     padding: 9px 33px;
+//     background-color: var(--wp--preset--color--custom-blau);
+//     border-radius: 0px;
+//     color: var(--wp--preset--color--white);
+//     font-family: var(--wp--preset--font-family--open-sans);
+
+//     &::after {
+//         content: url('./media/arrow-right-white.svg');
+//         display: inline-block;
+//         width: 10px !important;
+//         height: 10px !important;
+//         position: relative;
+//         top: 2px;
+//         margin-left: 2px;
+//         transition: 0.2s;
+//     }
+//     &:hover {
+//         text-underline-offset: 7px;
+//         color: var(--wp--preset--color--custom-blau);
+//         background-color: var(--wp--preset--color--custom-grau);
+//         &::after {
+//             content: url('./media/arrow-right.svg');
+//         }
+//     }
+// }
