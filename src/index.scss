@@ -2,9 +2,10 @@
 @import './scss/mixins/button-primary.scss';
 @import './scss/mixins/button-secondary.scss';
 
+@import './scss/normalize.scss';
 @import './scss/global.scss';
-@import './scss/extra-styles-native-blocks/button.scss';
-@import './scss/extra-styles-native-blocks/group.scss';
+// @import './scss/extra-styles-native-blocks/button.scss';
+// @import './scss/extra-styles-native-blocks/group.scss';
 @import './scss/navigation/navigation.scss';
 @import './scss/utility-clases.scss';
 
