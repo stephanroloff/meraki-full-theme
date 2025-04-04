@@ -47,16 +47,6 @@
 					"color": "#FFFFFF00",
 					"name": "Transparent",
 					"slug": "transparent"
-				},
-				{
-					"color": "#d8613c",
-					"name": "Accent / Three",
-					"slug": "accent-3"
-				},
-				{
-					"color": "#b1c5a4",
-					"name": "Accent / Four",
-					"slug": "accent-4"
 				}
 			],
 			"text": true
@@ -66,7 +56,7 @@
 			"minHeight": true
 		},
 		"layout": {
-            "contentSize": "620px",
+            "contentSize": "820px",
 			"wideSize": "1280px"
         },
 		"position": {
@@ -97,49 +87,6 @@
 			"customFontSize": true,
 			"dropCap": true,
 			"fluid": true,
-			"fontFamilies": [
-				{
-					"name": "Primary",
-					"slug": "primary",
-					"fontFamily": "Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif"
-				}
-				
-			],
-			"fontSizes": [
-				{
-					"name": "Small",
-					"size": "1rem",
-					"slug": "sm",
-					"fluid": false
-				},
-				{
-					"name": "Medium",
-					"size": "1.25rem",
-					"slug": "md",
-					"fluid": {
-						"min": "1rem",
-						"max": "1.5rem"
-					}
-				},
-				{
-					"name": "Large",
-					"size": "1.5rem",
-					"slug": "lg",
-					"fluid": {
-						"min": "1.25rem",
-						"max": "2rem"
-					}
-				},
-				{
-					"name": "Extra Large",
-					"size": "60px",
-					"slug": "xlg",
-					"fluid": {
-						"min": "50px",
-						"max": "60px"
-					}
-				}
-			],
 			"fontStyle": true,
 			"fontWeight": true,
 			"letterSpacing": true,

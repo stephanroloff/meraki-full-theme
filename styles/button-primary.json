@@ -1,8 +1,8 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
-	"title": "Button Random 1",
-	"slug": "button-random-1",
+	"title": "Button primary",
+	"slug": "button-primary",
 	"blockTypes": [ "core/button" ],
 	"styles": {
 		"color": {}

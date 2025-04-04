@@ -1,9 +1,0 @@
-.wp-element-button{
-    @include button-primary;
-}
-
-.is-style-button-secondary{
-    .wp-element-button{
-        @include button-secondary;
-    }
-}

@@ -1,0 +1,23 @@
+//Wordpress core/button
+
+.is-style-button-primary{
+    .wp-element-button{
+        @include button-primary;
+    }
+}
+
+.is-style-button-secondary{
+    .wp-element-button{
+        @include button-secondary;
+    }
+}
+
+button.btn-primary{
+    @include button-secondary;
+    @include button-primary;
+}
+
+
+
+
+
