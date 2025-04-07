@@ -10,3 +10,4 @@ include get_theme_file_path( 'inc/post-type-taxonomy.php' );
 include get_theme_file_path( 'inc/positioning/add-html-attributes.php' );
 include get_theme_file_path( 'inc/animations/add-html-attributes-animations.php' );
 include get_theme_file_path( 'inc/unlock-blocks-permissions.php' );
+include get_theme_file_path( 'inc/register-pattern-automatically.php' );
