@@ -54,6 +54,17 @@ $color-primary: white;
                                                         // font-weight: 200;
                                                     }
                                                 }
+                                                input[type="text"],
+                                                input[type="email"]
+                                                {
+                                                    height: 32px;
+                                                }
+                                                textarea{
+                                                    height: 200px;
+                                                }
+                                                input[type="submit"]{
+                                                    @include button-primary;
+                                                }
                                             }
                                         }
                                     }

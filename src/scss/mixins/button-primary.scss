@@ -21,6 +21,7 @@
     &:hover {
         color: $customBlack;
         background-color: $customWhite;
+        cursor: pointer;
         &::after {
             left: 10px;
             transition: 0.3s;
