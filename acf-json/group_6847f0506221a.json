@@ -89,6 +89,7 @@
                     "collapsed": "",
                     "button_label": "Add Row",
                     "rows_per_page": 20,
+                    "parent_repeater": "field_6847f0f7a856e",
                     "sub_fields": [
                         {
                             "key": "field_6847f426a8572",
@@ -134,8 +135,7 @@
                             "append": "",
                             "parent_repeater": "field_6847f412a8571"
                         }
-                    ],
-                    "parent_repeater": "field_6847f0f7a856e"
+                    ]
                 },
                 {
                     "key": "field_684817e224838",
@@ -209,7 +209,8 @@
                 "class": "",
                 "id": ""
             },
-            "return_format": "id",
+            "wpml_cf_preferences": 0,
+            "return_format": "url",
             "library": "all",
             "min_width": "",
             "min_height": "",
@@ -293,6 +294,28 @@
             "placeholder": "",
             "create_options": 0,
             "save_options": 0
+        },
+        {
+            "key": "field_6966093a631ca",
+            "label": "Multi Language",
+            "name": "multi_language",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "wpml_cf_preferences": 0,
+            "message": "(Only works with WPML Plugin)",
+            "default_value": 0,
+            "allow_in_bindings": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
         }
     ],
     "location": [
@@ -313,5 +336,7 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1750947923
+    "display_title": "",
+    "acfml_field_group_mode": "advanced",
+    "modified": 1768298274
 }
