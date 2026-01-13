@@ -284,7 +284,7 @@
                 "menu-classic": "Classic",
                 "menu-fixed": "Fixed"
             },
-            "default_value": false,
+            "default_value": "menu-classic",
             "return_format": "value",
             "multiple": 0,
             "allow_null": 0,
@@ -337,6 +337,5 @@
     "description": "",
     "show_in_rest": 0,
     "display_title": "",
-    "acfml_field_group_mode": "advanced",
-    "modified": 1768298274
+    "modified": 1768316631
 }
