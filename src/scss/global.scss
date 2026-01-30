@@ -4,4 +4,22 @@
 
 html {
     scroll-behavior: smooth;
+    margin: 0 !important;
+}
+
+.entry-content{
+    margin: 0 !important;
+}
+
+ul{
+    padding-left: 7px;
+    li{
+        list-style-type: disc;
+    }
+}
+
+//WPML Language Switcher and Development Site Front End
+.wpml-ls-statics-footer,
+.otgs-development-site-front-end{
+    display: none;
 }
