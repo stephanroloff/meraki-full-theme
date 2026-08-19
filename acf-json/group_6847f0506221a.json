@@ -192,6 +192,28 @@
                     "ui_on_text": "",
                     "ui_off_text": "",
                     "parent_repeater": "field_6847f0f7a856e"
+                },
+                {
+                    "key": "field_6a63512cffa0c",
+                    "label": "Class",
+                    "name": "class",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_6847f0f7a856e"
                 }
             ]
         },
@@ -337,5 +359,7 @@
     "description": "",
     "show_in_rest": 0,
     "display_title": "",
-    "modified": 1768316631
+    "allow_ai_access": false,
+    "ai_description": "",
+    "modified": 1784893747
 }
